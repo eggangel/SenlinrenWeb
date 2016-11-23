@@ -464,3 +464,36 @@ div#myCarousel {
 .contact_content p{
 	padding-left: 10px;
 }
+
+/*list_article*/
+.list_article_main{
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+.list_article_div{
+	margin-left: 50px;
+	margin-right: 50px;
+	border-bottom:1px solid #ccc;
+	margin-bottom:10px;
+}
+.list_article_p1{
+	display:inline-block;
+	width:250px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.list_article_p2{
+	display:inline-block;
+	margin: 0 auto;
+	float:right;
+	color:#326331;
+}
+.list_article_p1 a{
+	color: #326331;
+}
+.list_article_p1 a:hover{
+	color: #993333;
+	text-decoration:none;
+}
